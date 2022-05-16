@@ -1,16 +1,16 @@
 # Getting Started with React Tailwind Boilerplate
 
-Clone the the repositery using the following command:
+### Clone the the repositery using the following command:
 
 `git clone git@github.com:kens-visuals/react-tailwind-boilerplate.git`
 
-Then install the neccesary dependancies with:
+### Then install the neccesary dependancies with:
 
 `npm i` or `npm install`
 
-After it's done, make sure to go to `package.json` and change the name of the project to whatever you named your project. Otherwise it will be `react-tailwind-boilerplate`🙃
+> After it's done, make sure to go to `package.json` and change the name of the project to whatever you named your project. Otherwise it will be `react-tailwind-boilerplate`🙃
 
-Congrats 🎉 you're all set, you're welcome and happy hacking👨🏻‍💻👾
+## Congrats 🎉 you're all set, you're welcome and happy hacking👨🏻‍💻👾
 
 ## Available Scripts
 
