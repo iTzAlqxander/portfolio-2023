@@ -10,6 +10,16 @@
 
 > After it's done, make sure to go to `package.json` and change the name of the project to whatever you named your project. Otherwise it will be `react-tailwind-boilerplate`🙃
 
+### Next reset the remote repo
+
+Use the following command to reset the remote repo from mine to yours
+
+`git remote set-url <remote_name> <remote_url>`
+
+For example: `git remote set-url origin https://git-repo/new-repository.git`
+
+Then you can try to add-commit-push to see if you connected your remote repo correctly.
+
 ## Congrats 🎉 you're all set, you're welcome and happy hacking👨🏻‍💻👾
 
 ## Available Scripts
