@@ -22,6 +22,8 @@ Then you can try to add-commit-push to see if you connected your remote repo cor
 
 ## Congrats 🎉 you're all set, you're welcome and happy hacking👨🏻‍💻👾
 
+---
+
 ## Available Scripts
 
 In the project directory, you can run:
