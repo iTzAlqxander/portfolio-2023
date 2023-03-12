@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Components/App';
 import reportWebVitals from './reportWebVitals';
 import MainScreen from './Components/MainScreen';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Experience from './Components/Experience';
 import Contact from './Components/Contact';
-import TaskBar from './Components/TaskBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
