@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function MainScreen() {
   return (
-    <div className="bg-[#08071F] h-screen w-screen">
+    <div className="bg-[#08071F] h-screen">
       <h1 className="text-2xl font-abc font-medium text-[#10D190] ml-48 mt-32 mb-8">Hi, my name is</h1>
       <h1 className="text-6xl font-abc font-bold text-[#BDD4E7] ml-48 mb-8 ">Alexander Masztak</h1>
       <h1 className="text-5xl font-abc font-bold text-[#919EB0] ml-48 mb-8">
