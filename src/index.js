@@ -13,12 +13,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <MainScreen />
+    <div className='ml-4 mr-4 laptop:ml-48 laptop:mr-48 phone:ml-16 phone:mr-16 tablet:ml-32 tablet:mr-32'><MainScreen />
     <About />
     <Projects />
+    <div className='mb-16'></div>
     <Experience />
-    <Contact />
+    <Contact /></div>
   </React.StrictMode>
+    
 );
 
 // If you want to start measuring performance in your app, pass a function

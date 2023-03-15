@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-[#08071F] h-screen lg:pl-48 lg:pr-48">
+    <div className="bg-[#08071F] h-screen">
       <h1 id="About" className="text-2xl font-abc font-medium text-[#10D190] mt-8 mb-4 md:mb-8">00. About</h1>
       <div className="flex flex-col md:flex-row items-center justify-between mt-8 md:mt-32 mb-4 md:mb-8">
         <img src="me.png" className="w-32 md:w-48 lg:w-64 mb-8 md:mb-0 md:order-last" alt="your-image-description-here" />

@@ -5,10 +5,10 @@ function App() {
   const [showLinks, setShowLinks] = useState(false);
 
   const handleToggle = () => setShowLinks(!showLinks);
-
   return (
-    <nav className="flex items-center justify-end flex-wrap bg-[#08071F] p-6">
-      <div className="block lg:hidden ">
+    <div>
+       <nav className="flex items-center flex-wrap bg-[#08071F] p-6">
+      <div className="block lg:hidden justify-end">
         <button
           className="flex  items-center px-3 py-2 border rounded text-white border-white hover:text-[#10D190] hover:border-[#10D190]"
           onClick={handleToggle}
@@ -18,7 +18,6 @@ function App() {
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <title>Menu</title>
             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
           </svg>
         </button>
@@ -26,7 +25,7 @@ function App() {
       <div
         className={`${
           showLinks ? 'block' : 'hidden'
-        } w-full flex-grow lg:flex lg:items-center lg:w-auto`}
+        } w-full flex-grow lg:flex lg:items-center lg:w-auto lg:justify-start`}
       >
         <div className="text-sm lg:flex-grow lg:text-right">
           <Link
@@ -68,6 +67,8 @@ function App() {
         </div>
       </div>
     </nav>
+    </div>
+   
   );
 }
 
